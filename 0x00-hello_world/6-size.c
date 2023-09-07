@@ -1,10 +1,15 @@
 #include <stdio.h>
 /**
- * main - this sdesribes the main function of the code
+ * main - this desribes the main function of the code
  * Return: 0
  	*/
 int main(void)
 {
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float e;
 
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
 	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(b));
